@@ -9,4 +9,4 @@ assembler: mcmcMethods.c ./data/zUnion.txt ./data/mbUnion.txt ./data/emBUnion.tx
 	gcc -Wall main.c mcmcMethods.c -S -lgsl -lgslcblas -lm -ffast-math
 
 clean:
-	rm ./mcmc
+	rm -rf ./mcmc
